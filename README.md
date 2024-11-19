@@ -1,0 +1,1 @@
+directory blogs = backend 
