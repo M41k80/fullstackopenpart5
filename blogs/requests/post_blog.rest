@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im00MWs4MCIsImlkIjoiNjczYmI0YjdmNWNkN2U3MWYwNDZjN2JjIiwiaWF0IjoxNzMxOTY2MzU3LCJleHAiOjE3MzE5Njk5NTd9.7IdjaaD5FoqlvHNiQ5pV-zn1VmQ_xTn_mGqFGLmdyw8
+{
+  "title": "Nuevo Blog",
+  "author": "m41k",
+  "url": "https://example.com",
+  "likes": 15
+}
+
+
+

@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyNSIsImlkIjoiNjcyYzQxZDg4M2NiYmQ1N2RjZjcyZDdkIiwiaWF0IjoxNzMwOTUzNzAwLCJleHAiOjE3MzA5NTczMDB9.26GJjaJdmg5__JAH2xjxe-vS0-Xqs5nj_-VFhJzjbBs
+
+{
+  "username": "testuser6",
+  "password": "contraseñaSegura1234",
+  "name": "Bebe Mora"
+}

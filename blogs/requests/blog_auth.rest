@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im00MWs4MCIsImlkIjoiNjczMjE5MTBjOWZhYTE5Y2YwMTI4MDJlIiwiaWF0IjoxNzMxMzY0MjUzLCJleHAiOjE3MzEzNjc4NTN9.gD3QZhrKr2vtbOva1IcTiRMY7vG92kxNTOIGNWZU4o0
+
+{
+  "title": "Lukas es un bebe hermoso",
+  "author": "m41k",
+  "url": "https://example.com/nuevo-blog",
+  "likes": 1000
+}
